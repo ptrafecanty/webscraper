@@ -1,0 +1,22 @@
+{
+  "name": "webscrapper",
+  "version": "1.0.0",
+  "description": "SEO link analyzer",
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./src/index.ts",
+    "test": "vitest run"
+  },
+  "author": "ptrafecanty",
+  "keywords": [],
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.10.6",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "jsdom": "^26.1.0"
+  }
+}
